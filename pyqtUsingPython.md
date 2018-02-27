@@ -3,7 +3,7 @@ Step 1) Design in Qt creator
 
 Step 2) Convert *.ui to *.py using
     
-    pyuic -x input.ui -o output.py
+    pyuic5 -x input.ui -o output.py
     
 step 3) Make a new file main.py and input the following code :
     import sys
