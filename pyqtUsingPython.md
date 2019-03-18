@@ -6,9 +6,10 @@ Step 2) Convert *.ui to *.py using
     pyuic5 -x input.ui -o output.py
     
 step 3) Make a new file main.py and input the following code :
+    
+    
     import sys
     from PyQt5 import QtCore, QtGui, uic,QtWidgets
- 
     import mainwindow
  
     class MyApp(QtWidgets.QMainWindow, mainwindow.Ui_MainWindow):
